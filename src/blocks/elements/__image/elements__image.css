@@ -1,0 +1,13 @@
+.elements__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    transition: opacity .3s linear;
+    cursor: pointer;
+}
+
+.elements__image:hover {
+    opacity: .5;
+}

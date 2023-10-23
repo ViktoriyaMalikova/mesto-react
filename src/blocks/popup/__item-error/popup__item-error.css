@@ -1,0 +1,20 @@
+.popup__item-error {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #f00;
+    margin-bottom: 1px;
+    min-height: 30px;
+    opacity: 0;
+}
+
+.popup__item-error:last-of-type {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 485px) {
+    .popup__item-error:last-of-type {
+        margin-bottom: 18px;
+    }
+}
