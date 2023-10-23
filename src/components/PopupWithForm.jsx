@@ -1,3 +1,4 @@
+import React from 'react';
 function PopupWithForm({ name, title, btnTitle, children, isOpen, onClose }) {
     return (
         <div className={`popup popup_overlay_light popup_type_${name} ${isOpen && 'popup_opened'}`} >

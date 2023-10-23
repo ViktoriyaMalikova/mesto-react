@@ -1,3 +1,4 @@
+import React from 'react';
 function ImagePopup({ card, onClose }) {
     return (
         <div className={`popup popup_overlay_dark popup_type_open-image ${card && "popup_opened"}`}>
